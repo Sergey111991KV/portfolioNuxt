@@ -48,7 +48,7 @@
       >
         <v-icon>mdi-minus</v-icon>
       </v-btn>
-      <v-toolbar-title v-text="title" />
+<!--      <v-toolbar-title v-text="title" />-->
       <v-spacer />
       <v-btn
         icon
@@ -68,16 +68,16 @@
       temporary
       fixed
     >
-      <v-list>
-        <v-list-item @click.native="right = !right">
-          <v-list-item-action>
-            <v-icon light>
-              mdi-repeat
-            </v-icon>
-          </v-list-item-action>
-          <v-list-item-title>Switch drawer (click me)</v-list-item-title>
-        </v-list-item>
-      </v-list>
+<!--      <v-list>-->
+<!--        <v-list-item @click.native="right = !right">-->
+<!--          <v-list-item-action>-->
+<!--            <v-icon light>-->
+<!--              mdi-repeat-->
+<!--            </v-icon>-->
+<!--          </v-list-item-action>-->
+<!--          <v-list-item-title>Switch drawer (click me)</v-list-item-title>-->
+<!--        </v-list-item>-->
+<!--      </v-list>-->
     </v-navigation-drawer>
     <v-footer
       :absolute="!fixed"
@@ -106,6 +106,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+        {
+          icon: 'mdi-folder-file-outline',
+          title: 'UI-Kit',
+          to: '/ui-kit'
         }
       ],
       miniVariant: false,
