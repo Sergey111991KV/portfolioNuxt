@@ -1,10 +1,12 @@
 <template>
-  <div>td</div>
+  <div>
+    <slot />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "td"
+  name: "ui-kit-td"
 }
 </script>
 

@@ -1,10 +1,12 @@
 <template>
-  <div>tbody</div>
+  <div>
+    <slot />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "tbody"
+  name: "ui-kit-tbody"
 }
 </script>
 

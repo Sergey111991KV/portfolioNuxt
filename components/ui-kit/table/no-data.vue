@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "no-data"
+  name: "ui-kit-no-data"
 }
 </script>
 

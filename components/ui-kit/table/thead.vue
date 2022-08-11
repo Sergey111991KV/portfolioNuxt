@@ -1,10 +1,12 @@
 <template>
-  <div>thead</div>
+  <div>
+    <slot />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "thead"
+  name: "ui-kit-thead"
 }
 </script>
 

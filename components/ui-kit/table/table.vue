@@ -1,10 +1,12 @@
 <template>
-  <div>table</div>
+  <div>
+    <slot />
+  </div>
 </template>
 
 <script>
 export default {
-  name: "table"
+  name: "ui-kit-table"
 }
 </script>
 
