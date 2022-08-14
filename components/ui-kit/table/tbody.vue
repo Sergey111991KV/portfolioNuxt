@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="ui-tbody">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: "ui-kit-tbody"
+  name: "UiTbody"
 }
 </script>
 
 <style scoped>
-
+  .ui-tbody{
+    display: table-row-group;
+  }
 </style>

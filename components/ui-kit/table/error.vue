@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "ui-kit-error"
+  name: "Error"
 }
 </script>
 

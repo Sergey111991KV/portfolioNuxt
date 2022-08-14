@@ -2,41 +2,47 @@
   <div>
     <h1>UIKit</h1>
     <h3>Table component</h3>
-    <ui-kit-table>
-
-      <ui-kit-thead>
-        <ui-kit-tr>
-          <ui-kit-th>
+    <ui-table>
+      <ui-thead>
+        <ui-tr>
+          <ui-th>
             ...
-          </ui-kit-th>
-          <ui-kit-th>
-            header s 1
-          </ui-kit-th>
-          <ui-kit-th>
+          </ui-th>
+          <ui-th>
+            header 1
+          </ui-th>
+          <ui-th>
             header 2
-          </ui-kit-th>
-        </ui-kit-tr>
-      </ui-kit-thead>
-      <ui-kit-tbody>
-        <ui-kit-tr *ngFor="let row of table.items; let index = index">
-          <ui-kit-td>
+          </ui-th>
+        </ui-tr>
+      </ui-thead>
+      <ui-tbody>
+        <ui-tr *ngFor="let row of table.items; let index = index">
+          <ui-td>
             ...
-          </ui-kit-td>
-          <ui-kit-td>
+          </ui-td>
+          <ui-td>
             cell -1
-          </ui-kit-td>
-          <uiskit-td>
+          </ui-td>
+          <ui-td>
             cell -2
-          </uiskit-td>
-        </ui-kit-tr>
-      </ui-kit-tbody>
-    </ui-kit-table>
+          </ui-td>
+        </ui-tr>
+      </ui-tbody>
+    </ui-table>
   </div>
 </template>
 
 <script>
+import UiTable from '@/components/ui-kit/table/table'
+import UiTbody from "~/components/ui-kit/table/tbody";
+import UiTr from "~/components/ui-kit/table/tr";
+import UiTd from "~/components/ui-kit/table/td";
+import UiThead from "~/components/ui-kit/table/thead";
+import UiTh from "~/components/ui-kit/table/th";
 export default {
-  name: "ui-kit"
+  name: "ui-kit",
+  components: {UiTh, UiThead, UiTd, UiTr, UiTbody, UiTable}
 }
 </script>
 

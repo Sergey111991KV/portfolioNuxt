@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="ui-tr">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: "ui-kit-tr"
+  name: "UiTr"
 }
 </script>
 
 <style scoped>
-
+  .ui-tr{
+    display: table-row;
+  }
 </style>

@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="ui-th">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: "ui-kit-th"
+  name: "UiTh"
 }
 </script>
 
 <style scoped>
-
+.ui-th{
+  display: table-cell;
+}
 </style>

@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="ui-thead">
     <slot />
   </div>
 </template>
 
 <script>
 export default {
-  name: "ui-kit-thead"
+  name: "UiThead"
 }
 </script>
 
 <style scoped>
-
+  .ui-thead{
+    display: table-header-group;
+  }
 </style>
